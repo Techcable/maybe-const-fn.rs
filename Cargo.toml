@@ -1,0 +1,18 @@
+[package]
+name = "maybe-const-fn"
+version = "0.1.0"
+description = "Macro to make a function as `const` based on a cfg flag"
+authors = ["Techcable"]
+categories = [
+    "development-tools::build-utils",
+    "no-std",
+    "no-std::no-alloc",
+    "rust-patterns",
+]
+keywords = ["const", "rustversion"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+# Shared with rustversion-detect as that is where the code originated from
+repository = "https://github.com/Techcable/rustversion-detect"
+# 1.31 - First version supporting Rust 2018
+rust-version = "1.31"
