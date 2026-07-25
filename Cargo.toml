@@ -4,10 +4,10 @@ version = "0.1.0"
 description = "Macro to make a function as `const` based on a cfg flag"
 authors = ["Techcable"]
 categories = [
-    "development-tools::build-utils",
-    "no-std",
-    "no-std::no-alloc",
-    "rust-patterns",
+  "development-tools::build-utils",
+  "no-std",
+  "no-std::no-alloc",
+  "rust-patterns",
 ]
 keywords = ["const", "rustversion"]
 edition = "2018"
