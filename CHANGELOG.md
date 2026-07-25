@@ -10,6 +10,9 @@ A title is required for publishing a github release, so all versions should have
 
 ## Unreleased
 
+### Fixed
+- Fix repository location in Cargo.toml
+
 ## 0.1.0 - 2026-07-24
 Initial release.
 

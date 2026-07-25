@@ -12,7 +12,6 @@ categories = [
 keywords = ["const", "rustversion"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-# Shared with rustversion-detect as that is where the code originated from
-repository = "https://github.com/Techcable/rustversion-detect"
+repository = "https://github.com/Techcable/maybe-const-fn.rs"
 # 1.31 - First version supporting Rust 2018
 rust-version = "1.31"
