@@ -10,6 +10,12 @@ A title is required for publishing a github release, so all versions should have
 
 ## Unreleased
 
+## 0.1.1 - 2026-07-24
+Fix repository location in Cargo.toml.
+
+Improve crate-level documentation.
+Clearly indicates that this crate is special-purpose.
+
 ### Changed
 - Modified `README.md` to be clearer and discourage use.
 

@@ -1,6 +1,6 @@
 [package]
 name = "maybe-const-fn"
-version = "0.1.0"
+version = "0.1.1"
 description = "Macro to make a function as `const` based on a cfg flag"
 authors = ["Techcable"]
 categories = [
