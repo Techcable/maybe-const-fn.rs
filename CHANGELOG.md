@@ -18,4 +18,6 @@ Initial release.
 
 Split from [`rustversion-detect` v0.2.0], with only minor changes.
 
+**YANKED**: This release has the wrong "repository" location.
+
 [`rustversion-detect` v0.2.0]: https://github.com/Techcable/rustversion-detect/releases/tag/v0.2.0
