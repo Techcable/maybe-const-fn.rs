@@ -10,6 +10,9 @@ A title is required for publishing a github release, so all versions should have
 
 ## Unreleased
 
+### Changed
+- Modified `README.md` to be clearer and discourage use.
+
 ### Fixed
 - Fix repository location in Cargo.toml
 
@@ -21,3 +24,5 @@ Split from [`rustversion-detect` v0.2.0], with only minor changes.
 **YANKED**: This release has the wrong "repository" location.
 
 [`rustversion-detect` v0.2.0]: https://github.com/Techcable/rustversion-detect/releases/tag/v0.2.0
+
+

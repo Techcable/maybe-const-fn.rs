@@ -1,11 +1,16 @@
-//! Defines the [`maybe_const_fn`] macro.
+//! Macro to make a function as `const` based on a cfg flag
 //!
-//! This is not a proc macro and has no dependencies.
+//! **WARNING**: Using this crate is generally discouraged.
 //!
-//! Consider using dtonlay's [`rustversion`] proc-macro where possible.
-//! It is more robust and also has no dependencies (no `syn` or `proc-macro2`).
+//! Prefer using dtonlay's [`rustversion`] proc-macro where possible.
+//! It is more robust and has no dependencies (no `syn` or `proc-macro2`).
+//!
+//! The only advantage only advantage is that this crate is a declarative macro.
+//! This crate mainly exists for backwards compatibility with old versions of [`rustversion-detect`].
+//! Do not use this crate unless you know you need it.
 //!
 //! [`rustversion`]: https://github.com/dtolnay/rustversion
+//! [`rustversion-detect`]: https://github.com/Techcable/rustversion-detect/
 #![no_std]
 #![warn(
     // a serious issue, but don't want to fail the build for library users
